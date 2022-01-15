@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+            *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+      #sen{
+            position: relative;
+            bottom: 20%;
+            left: 5%;
+            font-family: "din","Helvetica Neue",Helvetica,Arial,sans-serif;
+            background-color: rgba(86, 102, 136, 0.5);
+            height: 55%;
+            width: 35%;
+            border-radius: 20px;
+
+        }
+        #he{
+            font-size: 60px;
+            text-align: center;
+            color: silver;
+            padding: 0;
+            
+        }
+        #tex{
+            text-align: justify;
+            margin-top: 10%;
+            margin-left: 7%;
+            margin-right: 7%;
+            height: 30%;
+            width: 70;
+            font-size: 25px;
+            color: rgb(124, 179, 168);
+        }
+        .form_t{
+            position: absolute;
+            right: 8%;
+            bottom: 7%;
+            height: 45%;
+            width: 43%;
+            background-color: rgba(86, 102, 136, 0.5);
+            border-radius: 30px;
+
+        }
+        
+        input{
+            height: 50px;
+            width: 300px;
+        }
+        h1{
+       font-size: 150%;
+       color: red;
+      }
+      #copyright{
+          color: seashell;
+      }
+    </style>
+</head>
+<body>
+    <body style = background-color:rgb(11,12,42) >
+        <header class="header">
+            <img src="logo.png" id ='image1'>
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12">
+                    <h1 class="glitch" data-text="覚者">覚者</h1>
+                    <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+        </div>
+        </div>
+        </header>
+        <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="trending.html">Trending</a></li>
+            <li class="nav"><a href="recommended.html">Recommended</a></li>
+            <li class="dropdown nav">
+              <a href="javascript:void(0)" class="dropbtn">Category</a>
+              <div class="dropdown-content">
+                <a href="shonen.html">Shonen</a>
+                <a href="senien.html">Senien</a>
+                <a href="sol.html">Slice of Life</a>
+                <a href="isekai.html">Isekai</a>
+                <a href="categories.html">All Categories</a>
+              </div>
+            </li>
+            <li class="nav"><a href="log_in.html">Login</a></li>
+            <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+          <div id="set">
+            <div id="sen">
+                <h1 id="he">Get in touch</h1>
+                <p id="tex">
+                    Feel free to get in touch incase of any problem. Your feedback is very much appreciated. In case you want to report dead links please click <a href="https://myanime.space/forums/issues-dead-links.21/">here</a> to proceed.
+                </p>
+            </div>
+            <div class="form_t">
+                <table cellpadding="4" cellspacing="10">
+                    <tr>
+                        <th><input class="form" type="text" placeholder="First Name"></th>
+                        <th><input class="form" type="text" placeholder="Last Name"></th>
+                    </tr>
+                    <tr>
+                        <th><input class="form" type="text" placeholder="Gmail"></th>
+                        <th><input class="form" type="text" placeholder="Contact No"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><textarea class="form" placeholder="Any Suggestion" rows="6" cols="40"></textarea></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2" align="center"><input type="submit" value="SUBMIT" style="height:40px; width:180px;" ></th>
+                    </tr>
+                </table>
+                </ul>
+            </div>
+        </div>
+        <div id="copyright">
+            ©2021 Copyright AnimeKakusha.anime 
+        </div>
+</body>
+</html>

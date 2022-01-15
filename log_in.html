@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+            *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+        #login{
+            text-align: center;
+            background-color: rgba(86, 102, 136, 0.5);
+            height: 70%;
+            width: 80%;
+            margin-left: 10%;
+            font-size: 50px;
+            color: silver;
+            border-radius: 30px;
+        }
+        #buttn{
+            height: 40px;
+            width: 15%;
+            font-size: 30px;
+            margin-bottom: 5px;
+            background: rgb(113, 180, 189);
+            position: relative;
+            
+        }
+        input{
+            height: 50%;
+            width: 50%;
+            font-size: 30px;
+        }
+        #signup{
+            color:silver
+        }
+        h1{
+       font-size: 150%;
+       color: red;
+      }
+      #copyright{
+          color: seashell;
+      }
+    </style>
+</head>
+<body>
+    <body style = background-color:rgb(11,12,42) >
+        <header class="header">
+            <img src="logo.png" id ='image1'>
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12">
+                    <h1 class="glitch" data-text="覚者">覚者</h1>
+                    <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+        </div>
+        </div>
+        </header>
+        <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="trending.html">Trending</a></li>
+            <li class="nav"><a href="recommended.html">Recommended</a></li>
+            <li class="dropdown nav">
+              <a href="javascript:void(0)" class="dropbtn">Category</a>
+              <div class="dropdown-content">
+                <a href="shonen.html">Shonen</a>
+                <a href="senien.html">Senien</a>
+                <a href="sol.html">Slice of Life</a>
+                <a href="isekai.html">Isekai</a>
+                <a href="categories.html">All Categories</a>
+              </div>
+            </li>
+            <li class="nav"><a href="log_in.html">Login</a></li>
+            <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div id="scr">
+            <div id="login">
+                <p> Welcome Back!</p>
+                <p> Enter your Login & Password : - </p>
+                <p>Email: <input type="text" placeholder="Email or Phone"></p>
+                <p>Password: <input type="password" placeholder="Password"></p>
+                <p><button id="buttn" type="button">SUBMIT</button></p>
+                <p>New here? <a id="signup" href="sign_up.html">Sign up</a></p>
+                
+            </div>
+        </div>
+        <div id="copyright">
+            ©2021 Copyright AnimeKakusha.anime 
+        </div>
+</body>
+</html>

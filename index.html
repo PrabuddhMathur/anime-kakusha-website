@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="marquee.css">
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <style>
+        *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+        .image{
+            border-radius: 20px;
+            height: -10%;
+            width: 120%;
+            
+        }
+        #latest{
+            font-size: 40px;
+            padding: 0;
+            margin: 10px 2px 10px 0;
+            color: white;
+        }
+        .txt{
+            padding-left: 7%;
+            padding-right: 3%;
+            color: ivory;
+            font-size: 110%;
+        }
+        a{
+            text-decoration: none;
+        }
+        #myBtn {
+                position: fixed; 
+                bottom: 20px; 
+                right: 30px; 
+                z-index: 99; 
+                border: none;
+                outline: none;
+                background-color: red;
+                color: white; 
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 10px;
+                font-size: 18px;
+                }
+
+        #myBtn:hover {
+        background-color: #555; 
+        }
+        h1{
+       font-size: 150%;
+       color: red;
+      }
+      #copyright{
+          color: seashell;
+      }
+    </style>
+</head>
+<body style = background-color:rgb(11,12,42) >
+    <header class="header">
+        <img src="logo.png" id ='image1'>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12">
+                <h1 class="glitch" data-text="覚者">覚者</h1>
+                <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+    </div>
+    </div>
+    </header>
+    <ul>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="trending.html">Trending</a></li>
+        <li class="nav"><a href="recommended.html">Recommended</a></li>
+        <li class="dropdown nav">
+          <a href="javascript:void(0)" class="dropbtn">Category</a>
+          <div class="dropdown-content">
+            <a href="shonen.html">Shonen</a>
+            <a href="senien.html">Senien</a>
+            <a href="sol.html">Slice of Life</a>
+            <a href="isekai.html">Isekai</a>
+            <a href="categories.html">All Categories</a>
+          </div>
+        </li>
+        <li class="nav"><a href="log_in.html">Login</a></li>
+        <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div>
+          <p id="latest">Latest Releases</p>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <table>
+        <tr>
+            <th><a href="https://animekaizoku.com/jujutsu-kaisen-40748/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/10/jjk-780x470.png"></a></th>
+            <th><a href="https://animekaizoku.com/jujutsu-kaisen-40748/" target="_blank"><h1>Jujutsu Kaisen</h1></a><p class="txt">In a world where demons feed on unsuspecting humans, fragments of the legendary and feared demon Ryoumen Sukuna were lost and scattered about. Should any demon consume Sukuna's body parts, the power they gain could destroy the world as we know it. </p></th> 
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/black-clover-34572/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/12/91Edv0cRl7L._RI_-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/black-clover-34572/" target="_blank"><h1>Black Clover</h1></a><p class="txt">Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the "Wizard King"—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position of the next Wizard King. </p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/one-piece-21/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2021/05/wano-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/one-piece-21/" target="_blank"><h1>One Piece</h1></a><p class="txt">Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. </p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/boruto-naruto-next-generations-34566/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/34566-780x470.jpg" alt="Boruto Naruto Next Generations"></a></th>
+            <th><a href="https://animekaizoku.com/boruto-naruto-next-generations-34566/" target="_blank"><h1>Boruto Naruto Next Generations</h1></a><p class="txt">Following the successful end of the Fourth Shinobi World War, Konohagakure has been enjoying a period of peace, prosperity, and extraordinary technological advancement.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/your-lie-in-april-23273/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/ylia-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/your-lie-in-april-23273/" target="_blank"><h1>Your lie in April</h1></a><p class="txt">Music accompanies the path of the human metronome, the prodigious pianist Kousei Arima. But after the passing of his mother, Saki Arima, Kousei falls into a downward spiral, rendering him unable to hear the sound of his own piano.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/made-in-abyss-dawn-of-the-deep-soul-36862/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/10/Made-In-Abyss-Dawn-of-the-Deep-Soul-Thailand-scaled-1-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/made-in-abyss-dawn-of-the-deep-soul-36862/" target="_blank"><h1>Made in Abyss: Dawn of the deep soul</h1></a><p class="txt">Made in Abyss Movie 3: Fukaki Tamashii no Reimei continues the epic adventure of Riko and Reg who are joined by their new friend Nanachi. Together, they descend into the Abyss' treacherous fifth layer, the Sea of Corpses, and encounter the mysterious Bondrewd.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/jojos-bizarre-adventure-diamond-is-unbreakable-31933/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00031933-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/jojos-bizarre-adventure-diamond-is-unbreakable-31933/" target="_blank"><h1>JoJo's Bizzare Adventure Diamond is Unbreakable</h1></a><p class="txt">The year is 1999. Morioh, a normally quiet and peaceful town, has recently become a hotbed of strange activity. Joutarou Kuujou, now a marine biologist, heads to the mysterious town to meet Jousuke Higashikata.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/bleach-269/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00000269-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/bleach-269/" target="_blank"><h1>Bleach</h1></a><p class="txt">Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/naruto-shippuden-1735/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00001735-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/naruto-shippuden-1735/" target="_blank"><h1>Naruto Shippuden</h1></a><p class="txt">It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/fairy-tail-6702/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00006702-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/fairy-tail-6702/" target="_blank"><h1>Fairy Tail</h1></a><p class="txt">In the mystical land of Fiore, magic exists as an essential part of everyday life. Countless magic guilds lie at the core of all magical activity, and serve as venues for like-minded mages to band together and take on job requests.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/demon-slayer-infinity-train-40456/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2021/05/rengoku-Copy-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/demon-slayer-infinity-train-40456/" target="_blank"><h1>Kimetsu no Yaiba - Mugen Train</h1></a><p class="txt">After a string of mysterious disappearances begin to plague a train, the Demon Slayer Corps' multiple attempts to remedy the problem prove fruitless. To prevent further casualties, the flame pillar, Kyoujurou Rengoku, takes it upon himself to eliminate the threat. </p></th>
+        </tr>
+    </table>
+    
+    <div class="marquee">
+        <h1> New Anime added. Tokyo Revengers!</h1>
+    </div>
+    <div id="copyright">
+        ©2021 Copyright AnimeKakusha.anime 
+    </div>
+</body>
+</html>
+
+
+

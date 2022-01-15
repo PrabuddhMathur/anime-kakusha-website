@@ -1,0 +1,26 @@
+#input{
+    border-radius: 150px; 
+    margin-top: 0%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    outline:0;
+}
+input{
+    font-size: 200%;
+}
+#button{
+    border-radius: 10px;
+}
+#image1{
+    height: 25%;
+    width: 12%;
+    margin-top: 0%;
+    margin-left: 44%;
+}
+.glitch{
+    margin-left: 45%;
+}
+li{
+    padding-left: 7%;
+    font-size: 150%;
+}

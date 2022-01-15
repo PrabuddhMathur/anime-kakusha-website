@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="marquee.css">
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <style>
+        *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+        .image{
+            border-radius: 20px;
+            height: -10%;
+            width: 120%;
+            
+        }
+        #latest{
+            font-size: 40px;
+            padding: 0;
+            margin: 10px 2px 10px 0;
+            color: white;
+        }
+        .txt{
+            padding-left: 7%;
+            padding-right: 3%;
+            color: ivory;
+            font-size: 110%;
+        }
+        a{
+            text-decoration: none;
+        }
+        #myBtn {
+                position: fixed; 
+                bottom: 20px; 
+                right: 30px; 
+                z-index: 99; 
+                border: none;
+                outline: none;
+                background-color: red;
+                color: white; 
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 10px;
+                font-size: 18px;
+                }
+
+        #myBtn:hover {
+        background-color: #555; 
+        }
+        h1{
+       font-size: 150%;
+       color: red;
+      }
+      #copyright{
+          color: seashell;
+      }
+    </style>
+</head>
+<body style = background-color:rgb(11,12,42) >
+    <header class="header">
+        <img src="logo.png" id ='image1'>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12">
+                <h1 class="glitch" data-text="覚者">覚者</h1>
+                <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+    </div>
+    </div>
+    </header>
+    <ul>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="trending.html">Trending</a></li>
+        <li class="nav"><a href="recommended.html">Recommended</a></li>
+        <li class="dropdown nav">
+          <a href="javascript:void(0)" class="dropbtn">Category</a>
+          <div class="dropdown-content">
+            <a href="shonen.html">Shonen</a>
+            <a href="senien.html">Senien</a>
+            <a href="sol.html">Slice of Life</a>
+            <a href="isekai.html">Isekai</a>
+            <a href="categories.html">All Categories</a>
+          </div>
+        </li>
+        <li class="nav"><a href="log_in.html">Login</a></li>
+        <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div>
+          <p id="latest">Senien</p>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <table>
+        <tr>
+            <th><a href="https://animekaizoku.com/tokyo-ghoul-re-36511/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00036511-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/tokyo-ghoul-re-36511/" target="_blank"><h1>Tokyo Ghoul : Re</h1></a><p class="txt">Two years have passed since the CCG's raid on Anteiku. Although the atmosphere in Tokyo has changed drastically due to the increased influence of the CCG, ghouls continue to pose a problem as they have begun taking caution, especially the terrorist organization Aogiri Tree, who acknowledge the CCG's growing threat to their existence.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/record-of-ragnarok-44942/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2021/06/records-ragnarok-promotional-poster-netflix-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/record-of-ragnarok-44942/" target="_blank"><h1>Record of Ragnarok</h1></a><p class="txt">High above the realm of man, the gods of the world have convened to decide on a single matter: the continued existence of mankind. Under the head of Zeus, the deities of Ancient Greece, Norse mythology, and Hinduism, among others, call assembly every one thousand years to decide the fate of humanity.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/diary-of-our-days-at-the-breakwater-39730/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/04/EG2kqegWwAIh4x0-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/diary-of-our-days-at-the-breakwater-39730/" target="_blank"><h1>Diary of Our Days at the Breakwater</h1></a><p class="txt">Hina Tsurugi and her family have just moved to a quaint seaside town. Hoping to savor the sight of the peaceful ocean, Hina stumbles upon a girl named Yuuki Kuroiwa—an upperclassman at her new school—who invites Hina to join her in fishing. Hina reels in an octopus, which falls onto her; being afraid of bugs and big creatures, she panics and begs Yuuki to remove it from her.</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/mushi-shi-457/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00000457-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/mushi-shi-457/" target="_blank"><h1>MUSHI-SHI</h1></a><p class="txt">"Mushi": the most basic forms of life in the world. They exist without any goals or purposes aside from simply "being." They are beyond the shackles of the words "good" and "evil."</p></th>
+        </tr>
+        <tr>
+            <th><a href="https://animekaizoku.com/big-windup-2159/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/12/2159-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/big-windup-2159/" target="_blank"><h1>Big Windup!</h1></a><p class="txt">Ren Mihashi was the ace of his middle school's baseball team, but due to his poor pitching, they could never win. Constant losses eventually lead to his teammates bullying him and reached the point where his teammates no longer tried to win, causing Mihashi to graduate with little self-esteem.</p></th>
+        </tr>
+      </table>
+      <div id="copyright">
+        ©2021 Copyright AnimeKakusha.anime 
+    </div>
+      </body>
+      </html>

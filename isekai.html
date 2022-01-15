@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="marquee.css">
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <style>
+        *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+        .image{
+            border-radius: 20px;
+            height: -10%;
+            width: 120%;
+            
+        }
+        .txt{
+            padding-left: 7%;
+            padding-right: 3%;
+            color: ivory;
+            font-size: 110%;
+        }
+        a{
+            text-decoration: none;
+        }
+        #myBtn {
+                position: fixed; 
+                bottom: 20px; 
+                right: 30px; 
+                z-index: 99; 
+                border: none;
+                outline: none;
+                background-color: red;
+                color: white; 
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 10px;
+                font-size: 18px;
+                }
+
+        #myBtn:hover {
+        background-color: #555; 
+        }
+        h1{
+       font-size: 150%;
+       color: red;
+      }
+        #isekai{
+            font-size: 40px;
+            padding: 0;
+            margin: 10px 2px 10px 0;
+            color: white;
+        }
+        #copyright{
+          color: seashell;
+      }
+    </style>
+</head>
+<body style = background-color:rgb(11,12,42) >
+    <header class="header">
+        <img src="logo.png" id ='image1'>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12">
+                <h1 class="glitch" data-text="覚者">覚者</h1>
+                <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+    </div>
+    </div>
+    </header>
+    <ul>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="trending.html">Trending</a></li>
+        <li class="nav"><a href="recommended.html">Recommended</a></li>
+        <li class="dropdown nav">
+          <a href="javascript:void(0)" class="dropbtn">Category</a>
+          <div class="dropdown-content">
+            <a href="shonen.html">Shonen</a>
+            <a href="senien.html">Senien</a>
+            <a href="sol.html">Slice of Life</a>
+            <a href="isekai.html">Isekai</a>
+            <a href="categories.html">All Categories</a>
+          </div>
+        </li>
+        <li class="nav"><a href="log_in.html">Login</a></li>
+        <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div>
+          <p id="isekai">Isekai</p>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <table>
+        <tr>
+            <th><a href="https://animekaizoku.com/that-time-i-got-reincarnated-as-a-slime-season-2-39551/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2021/01/slime-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/that-time-i-got-reincarnated-as-a-slime-season-2-39551/" target="_blank"><h1>That time I got reincarted as a Slime Season 2</h1></a><p class="txt">Thirty-seven-year-old Satoru Mikami is a typical corporate worker, who is perfectly content with his monotonous lifestyle in Tokyo, other than failing to nail down a girlfriend even once throughout his life. In the midst of a casual encounter with his colleague, he falls victim to a random assailant on the streets and is stabbed.</p></th> 
+         </tr>
+         <tr>
+            <th><a href="https://animekaizoku.com/how-not-to-summon-a-demon-lord-37210/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/2008398_Latvian_AppleHorizontalBannerShow_6b0e00c1-f2e3-ea11-82a8-dd291e252010-780x470.png"></a></th>
+            <th><a href="https://animekaizoku.com/how-not-to-summon-a-demon-lord-37210/" target="_blank"><h1>How NOT to Summon a Demon Lord</h1></a><p class="txt">When it comes to the fantasy MMORPG Cross Reverie, none can match the power of the Demon King Diablo. Possessing the game's rarest artifacts and an unrivaled player level, he overpowers all foolish enough to confront him. But despite his fearsome reputation, Diablo's true identity is Takuma Sakamoto, a shut-in gamer devoid of any social skills.</p></th> 
+         </tr>
+         <tr>
+            <th><a href="https://animekaizoku.com/the-rising-of-the-shield-hero-35790/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/Shieldbro-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/the-rising-of-the-shield-hero-35790/" target="_blank"><h1>The Rising of the Shield Hero</h1></a><p class="txt">The Four Cardinal Heroes are a group of ordinary men from modern-day Japan summoned to the kingdom of Melromarc to become its saviors. Melromarc is a country plagued by the Waves of Catastrophe that have repeatedly ravaged the land and brought disaster to its citizens for centuries. </p></th> 
+         </tr>
+         <tr>
+            <th><a href="https://animekaizoku.com/isekai-quartet-38472/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00038472-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/isekai-quartet-38472/" target="_blank"><h1>Isekai Quartet</h1></a><p class="txt">It is a normal day; everyone from deranged military girl Tanya Degurechaff and 16-year-old isekai protagonist Satou Kazuma to expansionist overlord Ainz Ooal Gown and demon sisters Rem and Ram go on with their daily lives. Suddenly, a conspicuous red button begging to be pressed appears before them. </p></th> 
+         </tr>
+         <tr>
+            <th><a href="https://animekaizoku.com/overlord-29803/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00029803-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/overlord-29803/" target="_blank"><h1>Overlord</h1></a><p class="txt">The final hour of the popular virtual reality game Yggdrasil has come. However, Momonga, a powerful wizard and master of the dark guild Ainz Ooal Gown, decides to spend his last few moments in the game as the servers begin to shut down.</p></th> 
+         </tr>
+         <tr>
+            <th><a href="https://animekaizoku.com/gintama-28977/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00028977-780x470.jpg"></a></th>
+            <th><a href="https://animekaizoku.com/gintama-28977/" target="_blank"><h1>Gintama°</h1></a><p class="txt">Gintoki, Shinpachi, and Kagura return as the fun-loving but broke members of the Yorozuya team! Living in an alternate-reality Edo, where swords are prohibited and alien overlords have conquered Japan, they try to thrive on doing whatever work they can get their hands on.</p></th> 
+         </tr>
+      </table>
+      <div id="copyright">
+        ©2021 Copyright AnimeKakusha.anime 
+    </div>
+      </body>
+      </html>

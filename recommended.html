@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKakusha - Your Anime one click away</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="glich_effect.css">
+    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="header.css">
+    <script>
+      mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+      } else {
+          mybutton.style.display = "none";
+      }
+  }
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <style>
+    *{
+        font-family: "Poppins", sans-serif;
+        font-size: 100%;
+      }
+    .image{
+        border-radius: 20px;
+        height: -10%;
+        width: 120%;
+        
+    }
+    #recommended{
+        font-size: 40px;
+        padding: 0;
+        margin: 10px 2px 10px 0;
+        color: white;
+    }
+    .txt{
+        padding-left: 7%;
+        padding-right: 3%;
+        color: ivory;
+    }
+    a{
+        text-decoration: none;
+    }
+    #myBtn {
+            position: fixed; 
+            bottom: 20px; 
+            right: 30px; 
+            z-index: 99; 
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white; 
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            }
+
+    #myBtn:hover {
+    background-color: #555; 
+    }
+    h1{
+       font-size: 150%;
+       color: red;
+      }
+      #copyright{
+          color: seashell;
+      }
+</style>
+</head>
+<body>
+    <body style = background-color:rgb(11,12,42) >
+        <header class="header">
+            <img src="logo.png" id ='image1'>
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12">
+                    <h1 class="glitch" data-text="覚者">覚者</h1>
+                    <input id="input" type="search" placeholder="Search"> <Button id="button">Search</Button>
+        </div>
+        </div>
+        </header>
+         <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="trending.html">Trending</a></li>
+            <li class="nav"><a href="recommended.html">Recommended</a></li>
+            <li class="dropdown nav">
+              <a href="javascript:void(0)" class="dropbtn">Category</a>
+              <div class="dropdown-content">
+                <a href="shonen.html">Shonen</a>
+                <a href="senien.html">Senien</a>
+                <a href="sol.html">Slice of Life</a>
+                <a href="isekai.html">Isekai</a>
+                <a href="categories.html">All Categories</a>
+              </div>
+            </li>
+            <li class="nav"><a href="log_in.html">Login</a></li>
+            <li class="nav"><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+          <div>
+            <p id="recommended">Our Recommended</p>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
+      <table>
+        <tr>
+          <th><a href="https://animekaizoku.com/tokyo-revengers-42249/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2021/05/EWoPGVwWkAAfXY5-780x470.jpg"></a></th>
+          <th><a href="https://animekaizoku.com/tokyo-revengers-42249/" target="_blank"><h1>Tokyo Revengers</h1></a><p class="txt">Takemichi Hanagaki's life is at an all-time low. Just when he thought it couldn't get worse, he finds out that Hinata Tachibana, his ex-girlfriend, was murdered by the Tokyo Manji Gang: a group of vicious criminals that has been disturbing society's peace for quite some time. </p></th> 
+       </tr>
+       <tr>
+        <th><a href="https://animekaizoku.com/castlevania/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/03/image1.jpeg-780x470.jpg"></a></th>
+        <th><a href="https://animekaizoku.com/castlevania/" target="_blank"><h1>Castlevania</h1></a><p class="txt">A vampire hunter fights to save a besieged city from an army of otherworldly creatures controlled by Dracula.</p></th> 
+      </tr>
+        <tr>
+          <th><a href="https://animekaizoku.com/attack-on-titan-16498/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00016498-1-780x470.jpg"></a></th>
+          <th><a href="https://animekaizoku.com/attack-on-titan-16498/" target="_blank"><h1>Attack on Titan</h1></a><p class="txt">Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure.</p></th> 
+       </tr>
+       <tr>
+         <th><a href="https://animekaizoku.com/jujutsu-kaisen-40748/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2020/10/jjk-780x470.png"></a></th>
+         <th><a href="https://animekaizoku.com/jujutsu-kaisen-40748/" target="_blank"><h1>Jujutsu Kaisen</h1></a><p class="txt">In a world where demons feed on unsuspecting humans, fragments of the legendary and feared demon Ryoumen Sukuna were lost and scattered about. Should any demon consume Sukuna's body parts, the power they gain could destroy the world as we know it. </p></th> 
+       </tr>
+       <tr>
+        <th><a href="https://animekaizoku.com/jojos-bizarre-adventure-diamond-is-unbreakable-31933/" target="_blank"><img class="image" src="https://animekaizoku.com/wp-content/uploads/2019/12/00031933-780x470.jpg"></a></th>
+        <th><a href="https://animekaizoku.com/jojos-bizarre-adventure-diamond-is-unbreakable-31933/" target="_blank"><h1>JoJo Bizzare Adventure Diamond is Unbreakable</h1></a><p class="txt">The year is 1999. Morioh, a normally quiet and peaceful town, has recently become a hotbed of strange activity. Joutarou Kuujou, now a marine biologist, heads to the mysterious town to meet Jousuke Higashikata.</p></th>
+      </tr>
+      </table>
+      <div id="copyright">
+        ©2021 Copyright AnimeKakusha.anime 
+    </div>
+</body>
+</html>
